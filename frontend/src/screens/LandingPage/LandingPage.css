@@ -1,0 +1,56 @@
+.main {
+  min-height: 93vh;
+  display: flex;
+  align-items: center;
+  background-image: url(../../assets//background.PNG);
+  background-position: center;
+  background-size: cover;
+}
+.title {
+  font-size: 95px;
+}
+.subtitle {
+  font-size: 25px;
+  padding-top: 10px;
+}
+.intro-text {
+  width: 100%;
+  text-align: center;
+}
+.buttonContainer {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.landingButton {
+  width: 200px;
+  height: 55px;
+}
+@media screen and (max-width: 600px) {
+  .main {
+    align-items: flex-start;
+  }
+  .intro-text {
+    width: 100%;
+    text-align: center;
+  }
+  .title {
+    font-size: 25px;
+  }
+  .subtitle {
+    font-size: 20px;
+    padding-top: 5px;
+  }
+  .buttonContainer {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+  }
+  .landingButton {
+    width: 100px;
+    height: 35px;
+  }
+}

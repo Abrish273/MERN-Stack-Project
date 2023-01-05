@@ -1,0 +1,8 @@
+@media screen and (max-width: 600px) {
+  .navbar {
+    width: 600px;
+  }
+  .subnavbar {
+    width: 100%;
+  }
+}
